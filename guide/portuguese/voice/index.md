@@ -72,11 +72,15 @@ O Alexa é o serviço de voz baseado em nuvem da Amazon disponível em dezenas d
 
 # Microfones de campo distante
 
-Os sistemas de reconhecimento de fala geralmente usam vários microfones para reduzir o impacto da reverberação e do ruído. Os ecos são organizados em um layout hexagonal, com um microfone em cada vértice e um no centro. O atraso entre cada microfone que recebe o sinal permite que o dispositivo identifique a origem da voz e cancele o ruído vindo de outras direções. Este é um fenômeno conhecido como beamforming.
+Os sistemas de reconhecimento de fala geralmente usam vários microfones para reduzir o impacto da reverberação e do ruído. Os ecos são organizados em um layout hexagonal, com um microfone em cada vértice e um no centro. O atraso entre cada microfone que recebe o sinal permite que o dispositivo identifique a origem da voz e cancele o ruído vindo de outras direções. Este é um fenômeno conhecido como beamforming (beamforming pode ser aplicado pois as ondas de pressão podem ser consideradas planas no campo distante).
 
 Embora os sistemas de reconhecimento de voz de última geração tenham desempenho razoavelmente bom em condições de microfone de fala próxima, o desempenho diminui em condições em que o microfone está longe do usuário.
 
-O áudio capturado pelo Echo será influenciado por: 1) a voz do locutor contra a parede da sala, 2) o ruído de fundo do lado de fora, 3) o eco acústico proveniente do altifalante do dispositivo 4) a saída de áudio contra a parede da sala.
+O áudio capturado pelo Echo será influenciado por: 
+1) a voz do locutor contra a parede da sala, 
+2) o ruído de fundo do lado de fora, 
+3) o eco acústico proveniente do altifalante do dispositivo 
+4) a saída de áudio contra a parede da sala.
 
 # Programas
 
